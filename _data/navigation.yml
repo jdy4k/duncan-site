@@ -1,3 +1,5 @@
 main:
-  - title: "repo"
-    url: https://github.com/jhosler02/personal-site
+  - title: "Portfolio"
+    url: /portfolio/
+  - title: "Resume"
+    url: /assets/other/Duncan%20Wentzel%20Resume.pdf

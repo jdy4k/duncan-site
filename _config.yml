@@ -4,7 +4,7 @@ name                    : Duncan Wentzel
 # Site Author
 author:
   name                  : "Duncan Wentzel"
-  avatar                : /assets/images/bio-photo.jpg
+  avatar                : /assets/images/bio-photo.png
   bio                   : ""
   location              : "Huntingdon, PA"
   links:
@@ -34,9 +34,12 @@ footer:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+# GitHub Pages repository
+repository: jdy4k/duncan-site
+
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dirt"
+minimal_mistakes_skin: "nord"
 enable_darkmode: true
 plugins:
   - jekyll-feed
