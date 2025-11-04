@@ -32,7 +32,7 @@ footer:
       url: "https://www.instagram.com/wentzel_designs/"
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jdy4k.github.io/duncan-site" # the base hostname & protocol for your site
 
 # GitHub Pages repository
 repository: jdy4k/duncan-site
