@@ -1,10 +1,11 @@
 title                   : Home
 name                    : Duncan Wentzel
+include: ["_pages"]
 
 # Site Author
 author:
   name                  : "Duncan Wentzel"
-  avatar                : /assets/images/bio-photo.png
+  avatar                : /assets/images/bio-photo.jpeg
   bio                   : ""
   location              : "Huntingdon, PA"
   links:
@@ -14,7 +15,7 @@ author:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/duncan-wentzel-5605081b6/"
-    - label: "Linkedin"
+    - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/wentzel_designs/"
 
@@ -27,7 +28,7 @@ footer:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/duncan-wentzel-5605081b6/"
-    - label: "Linkedin"
+    - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/wentzel_designs/"
 
@@ -57,6 +58,18 @@ defaults:
     values:
       layout: single
       author_profile: false
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
+
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name/
 
 sass:
   style: compressed
